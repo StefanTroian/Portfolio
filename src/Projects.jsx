@@ -26,7 +26,7 @@ const Projects = () => {
                             <p>Responsive personal portfolio.<br /><br />
                             <span className="text-secondary">React, Bootstrap, Email.js</span></p>
                           </div>
-                          <NavLink to="" className="btn btn-get-started">
+                          <NavLink to="./portfolio" className="btn btn-get-started">
                               Github
                           </NavLink>
                           <NavLink to="./home" className="btn">
