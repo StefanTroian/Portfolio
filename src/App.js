@@ -30,7 +30,10 @@ const App = () => {
 
 
 
-        <Route path='/portfolio' component={Home}/>
+        <Route path='/portfolio' component={() => { 
+            window.location.href = 'https://github.com/StefanTroian/portfolio'; 
+            return null;
+        }}/>
 
         <Route path='/stportraits-git' component={() => { 
             window.location.href = 'https://github.com/StefanTroian/ST_Portraits'; 
